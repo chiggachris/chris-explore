@@ -1,5 +1,9 @@
 <div *ngIf="player">
   <h2>{{ player.name | uppercase }} Bio</h2>
+  <div>
+    <img src="https://duke-compsci290-spring2018.github.io/assignments-portfolio-chiggachris/explore/src/images/{{player.number}}.jpg" width="139">
+  </div>
+  <div>Photo Credit: Getty Images</div>
   <div><span>Name: </span>{{player.name}}</div>
   <div><span>Nationality: </span>{{player.nationality}}</div>
   <div><span>Number: </span>{{player.number}}</div>
