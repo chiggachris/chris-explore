@@ -8,7 +8,8 @@
   padding-right: 0;
 }
 body {
-    background-color: lime;
+    background-image: url("../../images/background.png");
+    background-size: 100% 100%;
 }
 a {
   text-decoration: none;
@@ -43,12 +44,13 @@ h4 {
 }
 .module {
   padding: 20px;
+  font-size: 150%;
   text-align: center;
   font-family: cursive;
   color: blue;
   max-height: 120px;
   min-width: 120px;
-  background-color: lime;
+  background-color: none;
   border-radius: 2px;
 }
 .module:hover {
